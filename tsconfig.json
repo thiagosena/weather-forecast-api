@@ -33,14 +33,14 @@
          "./test"
       ],
       "experimentalDecorators": true,
-      "emitDecoratorMetadata": false
+      "emitDecoratorMetadata": true
    },
    "include": [
       "./src/**/*.ts",
       "./test/**/*.ts"
    ],
    "exclude": [
-      "node_modules",
+      "./node_modules/*",
       "dist"
    ]
 }
